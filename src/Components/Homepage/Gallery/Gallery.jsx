@@ -32,7 +32,7 @@ function Gallery() {
                 {data.map((image, index) => {
                     return (
                         <a href={image.imgSrc} key={index}>
-                            <img alt={"img-"+image.id} src={image.imgSrc} />
+                            <img alt={""} src={image.imgSrc} />
                         </a>
                     )
                 })}
