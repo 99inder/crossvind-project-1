@@ -29,7 +29,6 @@ const HeroSection = () => {
         data.map(imgData => (
           <SwiperSlide style={{ position: "relative" }} key={imgData.id}>
             <img src={imgData.imgSrc}
-              loading='lazy'
               alt={"img-"+imgData.id}
               className='w-screen h-[100dvh] object-cover object-center relative'
             />
