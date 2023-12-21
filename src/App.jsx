@@ -7,9 +7,9 @@ function App() {
     <div className="font-poppins">
       <Header />
       
-      <div>
+      <main>
         <Homepage />
-      </div>
+      </main>
 
       <Footer />
     </div>
