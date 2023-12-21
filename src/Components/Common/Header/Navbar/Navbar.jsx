@@ -45,7 +45,7 @@ const Navbar = () => {
     return (
         <div className={color ? "header header-bg" : "header"}>
             <nav className='navbar'>
-                <a href='/' className='logo'>
+                <a href='#' className='logo'>
                     <img src={logo} alt='logo' />
                 </a>
                 <div className='hamburger' onClick={toggleMenu}>
