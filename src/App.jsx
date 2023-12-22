@@ -4,9 +4,9 @@ import Homepage from "./Pages/Homepage.jsx";
 
 function App() {
   return (
-    <div className="font-poppins">
+    <div className="font-poppins relative pb-20">
       <Header />
-      
+
       <main>
         <Homepage />
       </main>
